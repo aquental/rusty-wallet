@@ -13,3 +13,11 @@ rust analyzer
 # Step One
 
 Make an app the imports bdk, reads xpub from the environment variable, outputs first unused address and quits.
+Read descriptor from env.
+
+```script
+# read from file
+cargo add dotenv
+# error handling
+cargo add anyhow
+```
