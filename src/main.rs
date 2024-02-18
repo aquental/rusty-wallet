@@ -1,9 +1,11 @@
+use dotenv;
 use dotenv::from_filename;
 use std::env;
 
 fn main() {
     println!("Hello, world!");
-    from_filename(".env").ok();
+    from_filename(".env").unwrap();
+    dotenv::dotenv().ok();
 
     let result_descriptor = env::var("WALLET_DESCRIPTOR");
     let descriptor = match result_descriptor {
