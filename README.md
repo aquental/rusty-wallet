@@ -4,7 +4,7 @@ Simple Bitcoin Wallet implementation in Rust.
 
 # Step Zero
 
-'''script
+```script
 rustup
 rust analyzer
-'''
+```
