@@ -20,4 +20,6 @@ Read descriptor from env.
 cargo add dotenv
 # error handling
 cargo add anyhow
+# add Bitcoin Dev Kit
+cargo add bdk
 ```
