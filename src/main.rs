@@ -3,7 +3,7 @@ use dotenv::from_filename;
 use std::env;
 
 fn main() {
-    println!("Hello, world!");
+    println!("Rusty Bitcoin Wallet.");
     from_filename(".env").unwrap();
     dotenv::dotenv().ok();
 
