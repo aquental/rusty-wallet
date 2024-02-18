@@ -23,3 +23,5 @@ cargo add anyhow
 # add Bitcoin Dev Kit
 cargo add bdk
 ```
+
+https://youtu.be/md-ecvXBGzI?t=3179
